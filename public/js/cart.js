@@ -15,9 +15,7 @@ function cart(event) {
                             <div class="row mx-auto justify-content-center text-center">
                                 <div class="col-12 mt-3 ">
                                     <nav aria-label="breadcrumb" class="second ">
-                                        <ol class="breadcrumb indigo lighten-6 first ">
-                                            <li class="breadcrumb-item font-weight-bold "><a class="black-text text-uppercase" href="/"><span class="mr-md-3 mr-1" style="color:var(--stevensRed);">BACK TO SHOP</span></a></li>
-                                        </ol>
+                                        
                                     </nav>
                                 </div>
                             </div>
@@ -27,8 +25,14 @@ function cart(event) {
                                         <div class="card-body">
                                             <div class="row">
                                                 <form id="paymentForm" class="needs-validation" novalidate>
-                                                    <h1>Duck Payment</h1>
-                                                    <span>Please input fake payment!</span>                                   
+                                                    <h1>Payment</h1>
+                                                    
+                                                    <span>Please input fake payment!</span>  
+                                                     
+                                                    <ol class="breadcrumb indigo lighten-6 first ">
+                                            <li class="breadcrumb-item font-weight-bold "><a class="black-text text-uppercase" href="/"><span class="mr-md-3 mr-1" style="color:var(--stevensRed);">BACK TO SHOP</span></a></li>
+                                        </ol>
+
                                                     <div class="form-floating mb-2">
                                                     <input type="text" class="form-control" id="cardNumberInput" value="1234123412341234" placeholder="xxxxx xxxx xxxx xxxx">
                                                     <label for="cardNumberInput">Card Number</label>
